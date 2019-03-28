@@ -59,7 +59,7 @@ int main(void) {
 	uint8_t two_seconds=0;
 	uint8_t inicia_periodo=0;/* tras sw3 es presionado*/
 	uint8_t veces_sw3_presionado=0;
-	uint8_t color_led[0]={OFF,BLUE,GREEN,RED,YELLOW,PURPLE};
+	uint8_t color_led[6]={OFF,BLUE,GREEN,RED,YELLOW,PURPLE};
 
 	while(1) {
 
